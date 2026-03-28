@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f0f3;
+}
+section{
+    padding: 40px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+/* Header */
+header {
+    background: linear-gradient(135deg, #57e5b3, #0e8183);
+    color: rgb(6, 6, 6);
+    text-align: center;
+    padding: 50px 20px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.title span {
+    flex: 1;
+    height: 2px;
+    background: #f1ecef;  /* dark color use kar */
+}
+.title h2 {
+    margin: 0 15px;
+}
+/* About */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    text-align: center;
+}
+.about img {
+    border-radius: 50%;
+    width: 150px;
+}
+/* Skills */
+.skills {
+    text-align: center;
+}
+
+.skills span {
+    display: inline-block;
+    background: #0c0c0c;
+    color: rgb(243, 243, 243);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    background: #667eea;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+/*languages*/
+.language-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px 0;
+}
+h2{
+ text-align: center;   
+}
+.lang-btn {
+    background-color: #0e0e0f; 
+    color: white; 
+    padding: 8px 16px;
+    border-radius: 20px; 
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+.lang-btn:hover {
+    background-color: #dc1188;
+}
+/* Hobbies */
+.hobbies-container {
+    display: flex;
+    justify-content: center;   /* center */
+    gap: 15px;
+    padding: 20px 0;
+}
+.hobby {
+    background: #1b1b1b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+.hobby:hover {
+    background: #667eea;
+    transform: scale(1.1);
+}
+/* Heading center */
+h2 {
+    text-align: center;
+}
+/* Resume Button */
+a {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #764ba2;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+a:hover {
+    background: #667eea;
+}
+/* Contact */
+.contact {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
